@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rota-List</title>
+    <link href="../css/style.css" rel="stylesheet" />
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@500&family=Julius+Sans+One&display=swap');
+    </style>
+</head>
+<body>
+    <p class="topHeader">Bienvenüe sur Rota-List<br><q><strong>Rotate With <abbr title="Lenny Vazeille - 25ans - étudiant : Développeur Web/ Web Mobile">Me</abbr></strong></q></p>
+    <header>        
+        <a href="#">
+            <img class="rotate" style=" height:200px; width:200px " src="..//assets/logo.png">  
+        </a>
+        <h1>LIST <strong><b> ul</b></strong>/<strong><b>ol</b></strong></h1>
+        <br> 
+        <p>Ul permet de lister avec un format <strong>listes à puces.</strong> </p>
+        <p>Ol permet de lister avec un format <strong>à chiffres</strong>.</p>
+        <p style="font-size:0.75rem; color:rgb(82, 82, 82);padding: 20px;">Survoler les titres afin de voir le CSS à appliquer</p>
+
+    </header>  
+
+        <div class="container">
+        
+            <section>  
+            <div class="listeRonde">
+                    <h2 title="list-style-type: circle ;">Liste avec Cercle vide</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+
+                <div title="line-height: 80%;" class="listeRondeCompact">
+                    <h2>Liste avec Cercle Compact</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                    <div title="list-style-type: disc ;" class="listeDisc">
+                        <h2>Liste avec Disc</h2>
+                        <ul>
+                            <li>Contenu Liste 1</li>
+                            <li>Contenu Liste 2
+                                <ol>
+                                    <li>Contenu Liste 2A</li>
+                                    <li>Contenu Liste 2B</li>
+                                    <li>Contenu Liste 2C</li>
+                                </ol>
+                            </li>
+                            <li>Contenu Liste 3</li>
+                        </ul>
+                    </div>
+
+                    <div title="line-height: 80%;" class="listeDiscCompact">
+                        <h2>Liste avec Disc Compact</h2>
+                        <ul>
+                            <li>Contenu Liste 1</li>
+                            <li>Contenu Liste 2
+                                <ol>
+                                    <li>Contenu Liste 2A</li>
+                                    <li>Contenu Liste 2B</li>
+                                    <li>Contenu Liste 2C</li>
+                                </ol>
+                            </li>
+                            <li>Contenu Liste 3</li>
+                        </ul>
+                    </div>
+            </section>
+
+            <section>
+                <div title="list-style-type: square ;" class="listeSquare">
+                    <h2>Liste avec Square</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+
+                <div title="line-height: 80% ;" class="listeSquareCompact">
+                    <h2>Liste avec Square Compact</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section>
+                <div title="list-style-type: lower-roman ;"  class="listeAutre">
+                    <h2>Liste avec chiffre Romain (minuscules)</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+
+                <div title="list-style-type: lower-alpha ; line-height: 80%;"  class="listeAutre2">
+                    <h2>Liste avec lettres Compact</h2>
+                    <ul>
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                            <ol>
+                                <li>Contenu Liste 2A</li>
+                                <li>Contenu Liste 2B</li>
+                                <li>Contenu Liste 2C</li>
+                            </ol>
+                        </li>
+                        <li>Contenu Liste 3</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <div class="container">
+
+            <section>
+                <h2>Liste dans liste dans liste.</h2>
+
+                <ul>     
+                    <div class="listeDisc">           
+                        <li>Contenu Liste 1</li>
+                        <li>Contenu Liste 2
+                    </div>          
+                            <div class="listeRondeCompact">
+                                <ul>
+                                    <li>Contenu Liste 2A</li>
+                                    <li>Contenu Liste 2B
+                                        <!-- là c'est relou : plus tu imbrique des élèments, plus tu dois faire attention à là où ils se ferment!  -->
+                                        <div class="listeSquareCompact">
+                                            <ul>
+                                                <li>Contenu Liste 2B-a</li>
+                                                <li>Contenu Liste 2B-b</li>
+                                            </ul>
+                                        </div>
+                                        <!-- fin de lieu relou -->
+                                    </li>  
+                                </ul>                 
+                            </div>    
+                        </li>
+                        
+                </ul>       
+               >
+
+            </section> 
+    <abbr>
+
+    </abbr
+            <p>Dans cet exemple vous pouvez constater que plusieurs listes sont imbriquées. 
+                    <br></br>
+                <blockquote >
+                    Dans ce cas là, il est plus judicieux d'utiliser un <strong>"Menu"</strong>
+                    <br>
+                   Ce qui permmettra de rendre votre page plus fonctionnel. 
+                    <br>
+                    Ainsi votre code sera plus agréable à la lecture.
+                </blockquote>
+            </p>
+                 <br>
+            <p style="font-size:0.75rem; color:rgb(0, 0, 0);padding: 20px;">C'EST CE DONT NOUS ALLONS PARLER PAR LA SUITE</p>
+
+            <p>Début d'une composante d'un
+                <strong>
+                    <a href="#">MENU</a>
+                </strong>.
+            </p>
+
+        </div>
+    
+    <footer>
+        <blockquote cite="#"
+            >Cette page à été créée dans le but de developper mes compétences sur la <strong>mise en formes CSS</strong> de box/container, 
+            des différentes types de <strong>Listes</strong> ainsi que l'utilisation de <strong>Citations</strong> et <strong>Quotations</strong>.
+            <br></br>Avoir une bonne pratique dans la façon de rédiger mon contenu HTML. Ainsi acquérir une logique de code <strong>Efficace</strong>,
+            <strong>Rapide à relire/transmettre</strong> et <strong>Organisé</strong> 
+        </blockquote>
+        <div class="lienFooter">
+            <a href="..//Charte_Graphique/Palette1.jpeg">
+                <p>Charte graphique</p>
+            </a>
+            <a href="#">
+                <p>Mon Site</p>
+            </a>
+            <a href="#">
+                <p>CV</p>
+            </a>
+            <a href="mailto:(lenny.v.dev@gmail.com)">
+                <p>Contact</p>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

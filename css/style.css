@@ -1,0 +1,233 @@
+*{
+    box-sizing: border-box;
+  
+}
+body html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Julius Sans One', sans-serif;      
+}
+/*** Haut de page ***/
+header{
+    background-color: #76a797 ;
+    border-radius: 50px 50px 0 0;
+    padding: 10px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 12%;
+    /* padding-bottom:4%; */
+}
+header p{
+    text-align: center;
+    margin: 0;
+    letter-spacing: 3px;
+    shape-outside: circle();
+}
+.topHeader{
+    color:#BFAA69;
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    letter-spacing: 3px;
+    z-index: 2;
+}
+
+img{
+    border-radius: 50%;
+    shape-outside: circle();
+    float: right;
+    margin-top: -20%;
+    z-index: 0;
+}
+    /* rotation avant du logo */
+    @-webkit-keyframes rotate {
+        from{
+            -webkit-transform: rotate(0deg);
+        }     
+        to{
+            -webkit-transform: rotate(360deg);
+        }
+    }
+    .rotate {
+        -webkit-animation: rotate 15s linear infinite;
+    }
+    .rotate:hover{
+        animation-play-state: paused;
+        transform-origin: 50%;
+    } 
+
+
+/*** Text ***/
+    h1{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 5rem;
+        text-align: center;
+        font-weight: 100;
+        margin: 0;
+    }
+    h2{
+        letter-spacing: 1px;
+        text-align: center;
+        padding-top: 10px;
+        
+    }
+    p{
+        font-family: 'Julius Sans One', sans-serif;
+        font-size: 1rem;
+        text-align: justify;
+        margin-right: auto;
+        margin-left: auto;
+        color: white;
+        padding: 10px;
+    }
+    ul{
+        letter-spacing: 3px;
+    }
+    ol{
+        font-size: 0.75rem;
+    }
+    a{
+        /* text-decoration: none; */
+        color: white;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+    }
+    blockquote{
+        color:#3a4844;
+        font-size: 0.75rem;
+        text-align: justify;
+        font-family: 'Julius Sans One', sans-serif;
+    }
+    .container blockquote{
+        font-size: 0.75rem;
+        color:white;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    a:hover{
+        color:#3a4844;
+    }
+    h2:hover{
+        color:grey;
+    }
+.container a:hover{
+    color: #76a797 ;
+}
+
+
+/*** Conteneur ***/
+    .container{
+        background: #3a4844;
+        /* border-radius: 50px 10px; */
+        color: white;
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 20px;
+        margin: 40px;
+        font-family: 'Julius Sans One', sans-serif;
+        /* border: rgb(115, 213, 106) solid 3px; */
+    }
+    section{
+        border: 1px rgb(255, 255, 255) solid;
+        margin: 50px;
+        padding: 15px;
+        text-align: center;
+        margin-left: auto;
+     margin-right: auto;
+    }
+
+/*** Contenu ***/
+
+    /** Cercle vide **/
+
+    .listeRonde ul{
+        list-style-type: circle ; 
+    }
+
+    .listeRondeCompact ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #708C84;
+        list-style-type: circle ; 
+
+    /* pour rendre compact la liste  */
+        line-height: 80%;
+    }
+
+
+    /** Disc **/
+
+    .listeDisc ul{
+        list-style-type: disc ;  
+    }
+    .listeDiscCompact ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #9BA685;
+        list-style-type: disc ; 
+
+    /* pour rendre compact la liste  */
+        line-height: 80%;
+    }
+
+    /** Square **/
+
+      .listeSquare ul{
+        list-style-type: square;  
+    }
+    .listeSquareCompact ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color: #BFAA69;
+        list-style-type: square; 
+
+    /* pour rendre compact la liste  */
+        line-height: 80%;
+    }
+
+    
+    /** Chiffres romains et lettres minuscule **/
+
+    .listeAutre ul{
+        list-style-type:lower-roman ;  
+    }
+    .listeAutre2 ul{
+        padding-top: 15px;
+        padding-bottom: 15px;
+        background-color:#D9AD5B;
+        list-style-type:lower-alpha ; 
+
+    /* pour rendre compact la liste  */
+        line-height: 80%;
+    }
+    
+    /** Suite et lien vers page Menu  **/
+        .container p{
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+/*** Bas de page  ***/
+footer{
+    background-color: #76a797 ;
+    padding: 20px;
+    width: 100%;
+    height: 20%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.lienFooter{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+}
+  
